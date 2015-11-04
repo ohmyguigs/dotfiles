@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/Guigs/repos/checkout-instore'
+let g:netrw_dirhist_2='/Users/Guigs/repos/checkout-instore/src'
+let g:netrw_dirhist_3='/Users/Guigs/repos/checkout-instore/src/components'
+let g:netrw_dirhist_4='/Users/Guigs/repos/checkout-instore/src/components/GeneralLogo'
+let g:netrw_dirhist_5='/Users/Guigs/repos/checkout-instore/src/components'
+let g:netrw_dirhist_6='/Users/Guigs/repos/checkout-instore/src'
+let g:netrw_dirhist_7='/Users/Guigs/repos/checkout-instore'
