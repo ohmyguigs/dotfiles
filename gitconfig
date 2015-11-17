@@ -13,6 +13,7 @@
 [repack]
   usedeltabaseoffset = true # >git 1.5
 [alias]
+  up = pull origin master
   pom = push origin master
   s = status
   aa = !git add . && git add -u . && git status
