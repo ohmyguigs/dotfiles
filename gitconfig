@@ -17,7 +17,7 @@
   pom = push origin master
   s = status
   aa = !git add . && git add -u . && git status
-  c = commit
+  c = checkout 
   cm = commit -m
   ac = !git add . && git commit
   acm = !git add . && git commit -m
@@ -26,6 +26,8 @@
   ll = log --stat --abbrev-commit
   d = difftool
   master = checkout master
+  beta = checkout beta 
+  dev = checkout development 
 [user]
   name = resendefreitas
   email = guilherme.freitas@vtex.com.br
