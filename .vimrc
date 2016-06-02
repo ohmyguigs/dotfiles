@@ -1,17 +1,18 @@
 " Global configs
- colorscheme jellybeans 
+ colorscheme jellybeans
  set encoding=utf-8
 " temporary adjust, to use in macbook with fish
  set shell=sh
 " on startup configs
- set number  
+ set number
+ set tabstop=2
 " Airline plugin
  let g:airline#extensions#tabline#enabled = 1
  let g:airline#extensions#tabline#left_sep = ' '
  let g:airline#extensions#tabline#left_alt_sep = '|'
  let g:airline_theme = 'badwolf'
- let g:airline_powerline_fonts = 1 
- 
+ let g:airline_powerline_fonts = 1
+
 " NerdTree plugin
  autocmd vimenter * NERDTree
  map <C-n> :NERDTreeToggle<CR>
