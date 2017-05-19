@@ -27,7 +27,8 @@
   d = difftool
   master = checkout master
   beta = checkout beta 
-  dev = checkout development 
+  dev = checkout development
+  holly-prune = !git tag -l | xargs git tag -d && git fetch -t
 [user]
   name = resendefreitas
   email = guilherme.freitas@vtex.com.br
