@@ -30,8 +30,8 @@
   dev = checkout development
   holly-prune = !git tag -l | xargs git tag -d && git fetch -t
 [user]
-  name = resendefreitas
-  email = guilherme.freitas@vtex.com.br
+  name = ohmyguigs
+  email = ohmyguigs@gmail.br
 [diff]
   # git does copy/rename *detection*. if you want it to track copies/renames:
   # http://stackoverflow.com/questions/1043388/record-file-copy-operation-with-git
